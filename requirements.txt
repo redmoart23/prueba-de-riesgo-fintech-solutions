@@ -2,3 +2,4 @@ Flask
 pandas
 plotly-express
 dash
+openpyxl
