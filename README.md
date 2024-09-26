@@ -40,7 +40,7 @@ If you'd like to contribute to this project, please fork the repository and crea
 
 ## License
 
-[Insert your chosen license here]
+Free use
 
 ## Contact
 
