@@ -1,0 +1,19 @@
+FROM python:3.10-slim-buster
+
+# Create app directory
+WORKDIR /dashboard_app
+
+# Copy the requirements file into the container
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the application code into the container
+COPY . .
+
+#Expose container in port 8080
+EXPOSE 8080
+
+# Set the command to run the application
+CMD ["python3", "app.py" ]
