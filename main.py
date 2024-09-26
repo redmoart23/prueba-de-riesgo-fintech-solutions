@@ -320,4 +320,4 @@ def home():
 
 # Run the Flask app
 if __name__ == "__main__":
-    flask_app.run(port=5000)
+    flask_app.run(port=8080)
